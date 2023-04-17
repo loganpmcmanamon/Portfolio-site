@@ -68,21 +68,28 @@ export default {};
   display: flex;
   flex-direction: row;
   background-color: #cecece;
+  border-radius: 40px;
 }
 
 .profile {
-  border: 2px solid black;
+  border-radius: 40px;
   background-color: rgb(216, 146, 207);
   width: 30%;
   padding: 1%;
 }
 .about-section {
-  border: 2px solid blue;
   width: 70%;
+
+}
+
+#about-me{
+    text-align: left;
+    margin: 2%;
+
 }
 
 #profile-pic {
-  max-width: 12%;
+  max-width: 20%;
   height: auto;
   border: solid 2px red;
   border-radius: 600px;
@@ -95,7 +102,7 @@ export default {};
 }
 
 .tech-icon {
-  max-width: 5%;
+  max-width: 4%;
   height: auto;
 }
 
@@ -103,4 +110,33 @@ export default {};
   text-decoration: none;
   color: #2c3e50;
 }
+
+.projects-button button{
+    background-color: white;
+    color: #2c3e50;
+    border: 2px solid red;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+.projects-button button:hover {
+    background-color: red;
+    color: white;
+}
+
+.resume-button button{
+    background-color: white;
+    color: #2c3e50;
+    border: 2px solid blue;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+.resume-button button:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+
 </style>
