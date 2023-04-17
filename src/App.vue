@@ -1,20 +1,15 @@
 <template>
   <div id="app">
-    <main-card/>
+    <main>
+      <router-view />
+    </main>
   </div>
 </template>
 
 <script>
-
-import MainCard from './components/MainCard.vue'
-
 export default {
-  name: 'App',
-  components: {
-   
-    MainCard
-  }
-}
+  name: "App",
+};
 </script>
 
 <style>

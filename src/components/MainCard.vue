@@ -79,13 +79,29 @@ export default {};
 }
 .about-section {
   width: 70%;
-
 }
 
-#about-me{
-    text-align: left;
-    margin: 2%;
 
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-button{
+    margin: 5px;
+    padding: 5px;
+}
+
+.resumer-button{
+    padding: 5px;
+    margin: 5px;
+}
+
+#about-me {
+  text-align: left;
+  margin: 2%;
 }
 
 #profile-pic {
@@ -104,6 +120,7 @@ export default {};
 .tech-icon {
   max-width: 4%;
   height: auto;
+  margin: 5px;
 }
 
 .link a {
@@ -111,32 +128,31 @@ export default {};
   color: #2c3e50;
 }
 
-.projects-button button{
-    background-color: white;
-    color: #2c3e50;
-    border: 2px solid red;
-    border-radius: 12px;
-    transition-duration: 0.4s;
+.projects-button button {
+  background-color: white;
+  color: #2c3e50;
+  border: 2px solid red;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  font-size: 20px;
 }
 
 .projects-button button:hover {
-    background-color: red;
-    color: white;
+  background-color: red;
+  color: white;
 }
 
-.resume-button button{
-    background-color: white;
-    color: #2c3e50;
-    border: 2px solid blue;
-    border-radius: 12px;
-    transition-duration: 0.4s;
+.resume-button button {
+  background-color: white;
+  color: #2c3e50;
+  border: 2px solid blue;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  font-size: 20px;
 }
 
-.resume-button button:hover{
-    background-color: blue;
-    color: white;
+.resume-button button:hover {
+  background-color: blue;
+  color: white;
 }
-
-
-
 </style>
