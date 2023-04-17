@@ -7,18 +7,19 @@
         <p>Software Developer</p>
       </div>
       <div class="social-links">
-        <a href="https://github.com/loganpmcmanamon">
-          <div class="link">
+        <div class="link">
+          <a href="https://github.com/loganpmcmanamon">
             <img src="../assets/github-mark.png" alt="" class="social-icon" />
             <h2>GitHub</h2>
-          </div>
-        </a>
-        <a href="https://www.linkedin.com/in/logan-mcmanamon/">
-          <div class="link">
+          </a>
+        </div>
+
+        <div class="link">
+          <a href="https://www.linkedin.com/in/logan-mcmanamon/">
             <img src="../assets/linkedin.png" alt="" class="social-icon" />
             <h2>LinkedIn</h2>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     </section>
     <section class="about-section">
@@ -38,14 +39,21 @@
         </p>
       </article>
       <div class="tech-section">
-          <h1>Technologies:</h1>
-          <div class="logos">
-              <img src="../assets/java.png" alt="" class="tech-icon" />
-              <img src="../assets/java-script.png" alt="" class="tech-icon" />
-              <img src="../assets/logo.png" alt="" class="tech-icon">
-              <img src="../assets/postgre.png" alt="" class="tech-icon">
-
-          </div>
+        <h1>Technologies:</h1>
+        <div class="logos">
+          <img src="../assets/java.png" alt="" class="tech-icon" />
+          <img src="../assets/java-script.png" alt="" class="tech-icon" />
+          <img src="../assets/logo.png" alt="" class="tech-icon" />
+          <img src="../assets/postgre.png" alt="" class="tech-icon" />
+        </div>
+      </div>
+      <div class="button-container">
+        <div class="projects-button">
+          <button type="button">Projects</button>
+        </div>
+        <div class="resume-button">
+          <button type="button">Resume</button>
+        </div>
       </div>
     </section>
   </main>
@@ -56,26 +64,43 @@ export default {};
 </script>
 
 <style scoped>
-.profile{
-    border: 2px solid black;
-    margin-bottom: 5px;
+.main-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #cecece;
 }
-.about-section{
-    border: 2px solid blue;
+
+.profile {
+  border: 2px solid black;
+  background-color: rgb(216, 146, 207);
+  width: 30%;
+  padding: 1%;
+}
+.about-section {
+  border: 2px solid blue;
+  width: 70%;
 }
 
 #profile-pic {
-  max-width: 8%;
+  max-width: 12%;
   height: auto;
+  border: solid 2px red;
+  border-radius: 600px;
+  overflow: hidden;
 }
 
 .social-icon {
-  max-width: 4%;
+  max-width: 10%;
   height: auto;
 }
 
-.tech-icon{
-    max-width: 5%;
-    height: auto;
+.tech-icon {
+  max-width: 5%;
+  height: auto;
+}
+
+.link a {
+  text-decoration: none;
+  color: #2c3e50;
 }
 </style>

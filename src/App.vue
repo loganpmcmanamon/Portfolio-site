@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    
     <main-card/>
   </div>
 </template>
