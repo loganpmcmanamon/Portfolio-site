@@ -2,9 +2,15 @@
   <nav>
     <ul>
       <li>
-        <router-link v-bind:to="{ name: 'home' }" id="home" class="nav-link"
+        <router-link to="/" exact id="home" class="nav-link"
           >Home</router-link
         >
+      </li>
+      <li>
+        <router-link v-bind:to="{name: 'portfolio'}" class="nav-link">Portfolio</router-link>
+      </li>
+      <li>
+        <router-link v-bind:to="{name: 'contact'}" class="nav-link">Connect</router-link>
       </li>
     </ul>
   </nav>
@@ -40,6 +46,6 @@ li {
 }
 
 .nav-link.router-link-active{
-    background-color: #04AA6D;
+    background-color: #0423aa;
 }
 </style>

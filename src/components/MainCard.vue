@@ -48,9 +48,12 @@
         </div>
       </div>
       <div class="button-container">
+        <router-link v-bind:to="{name: 'portfolio'}">
         <div class="projects-button">
           <button type="button">Projects</button>
         </div>
+        </router-link>
+
         <div class="resume-button">
           <button type="button">Resume</button>
         </div>
