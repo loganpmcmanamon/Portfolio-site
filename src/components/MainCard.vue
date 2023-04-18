@@ -76,7 +76,7 @@ export default {};
 
 .profile {
   border-radius: 40px;
-  background-color: rgb(216, 146, 207);
+  background-color: rgb(161, 146, 216);
   width: 30%;
   padding: 1%;
 }
@@ -110,7 +110,7 @@ export default {};
 #profile-pic {
   max-width: 20%;
   height: auto;
-  border: solid 2px red;
+  border: solid 1px black;
   border-radius: 600px;
   overflow: hidden;
 }
